@@ -1,0 +1,17 @@
+LocalDate - datas simples -> 04/08/2001
+LocalTime - horários simples -> 12:00:00
+LocalDateTime - data + hora -> 04/08/2001 12:00:00
+
+Instant
+- representa um momento na linha do tempo
+- passa a contar a partir de 01/01/1970 00:00:00
+- não armazena informações sobre fuso horário 
+
+-> 04/08/2001 12:00:00 GMT/UTC (sempre irá mostrar em GMT)
+
+ZonedDateTime - LocalDateTime com fuso horário
+- armazena informações sobre fuso horário (diferentemente
+do Instant)
+
+-> 04/08/2001 12:00:00 GMT-2
+
